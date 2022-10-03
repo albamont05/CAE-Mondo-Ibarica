@@ -30,6 +30,10 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/company', function () {
         return view('front.company');
     })->name('company');
+
+    Route::get('/workers', function () {
+        return view('front.workers');
+    })->name('workers');
     
     Route::get('/foo', function () {
         return view('front.dashboard');
