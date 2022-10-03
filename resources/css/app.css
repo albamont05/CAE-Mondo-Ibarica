@@ -20,3 +20,10 @@
     @apply bg-red-500;
 }
 
+tr {
+    @apply h-14;
+}
+
+th {
+    /* border-spacing: 100px 0px; */
+}

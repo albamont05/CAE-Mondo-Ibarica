@@ -21,6 +21,10 @@ module.exports = {
                     DEFAULT: '#0076C0',
                     dark: '#002746'
                 },
+                sky: {
+                    50 : '#D7F2FE',
+                    500: '#5CC3F1'
+                },
                 gray: {
                     light: '#B0BBCA',
                     DEFAULT: '#637193'
@@ -30,6 +34,9 @@ module.exports = {
                 '8xl': '90rem',
                 '9xl': '100rem',
                 '10xl': '110rem'
+            },
+            height: {
+                '90vh': '90vh'
             },
             boxShadow: {
                 'mondo': '0px 0px 15px 0px rgba(0, 0, 0, 0.1)',
