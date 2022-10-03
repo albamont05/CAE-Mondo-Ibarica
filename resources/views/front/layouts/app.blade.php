@@ -16,10 +16,12 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @livewireStyles
 </head>
 
 <body class="font-nunito text-gray antialiased max-w-10xl mx-auto">
-    <div class="flex">
+    <div class="flex h-screen">
         {{-- Sidebar --}}
         <div class="lg:w-1/5 2xl:w-2/12">
             @include('front.layouts.sidebar')
@@ -29,15 +31,16 @@
         </div>
 
         {{-- Header --}}
-        <div class="lg:w-4/5 2xl:w-10/12">
+        <div class="lg:w-4/5 2xl:w-10/12 box-content">
             <x-header section="{{ $section ?? '' }}" />
-            
+
             {{-- Main --}}
-            <div class="px-6">
+            <main class="px-8">
                 {{ $slot }}
-            </div>
+            </main>
         </div>
     </div>
+    @livewireScripts
 </body>
 
 </html>

@@ -9,8 +9,8 @@
 				<x-icons.company class="{{ request()->routeIs('company') ? 'fill-white' : 'fill-blue-lighter' }}h-5 w-5 mr-3"/>
 				Empresa
 			</x-nav-link>
-			<x-nav-link :href="route('bar')" :active="request()->routeIs('bar')">
-				<x-icons.worker class="{{ request()->routeIs('dashboard') ? 'fill-white' : 'fill-blue-lighter' }}h-5 w-5 mr-3"/>
+			<x-nav-link :href="route('workers')" :active="request()->routeIs('workers')">
+				<x-icons.worker class="{{ request()->routeIs('workers') ? 'fill-white' : 'fill-blue-lighter' }}h-5 w-5 mr-3"/>
 				Trabajadores
 			</x-nav-link>
 			<x-nav-link :href="route('foo')" :active="request()->routeIs('foo')">

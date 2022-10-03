@@ -1,4 +1,4 @@
-<x-front-layout section="dashboard">
+<x-front-layout section="resumen">
 	<div class="grid grid-cols-2 gap-6">
 		<div class="mb-6">
 			<h2 class="uppercase font-bebas text-blue text-2xl mb-3">Empresa</h2>
